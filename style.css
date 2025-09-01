@@ -114,6 +114,11 @@
     gap: 75px;
 }
 
+#desc {
+    display: flex;
+    flex-direction: column;
+}
+
 /* class rules */
 
 .image {
