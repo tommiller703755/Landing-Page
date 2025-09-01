@@ -70,7 +70,42 @@
     font-weight: bold;
 }
 
+#action {
+    background-color: #3882F6;
+    padding: 30px 100px;
+    border-radius: 10px;
+    color: white;
+    
+    display: flex;
+    gap: 160px;
+}
+
+#sign-up {
+    border-color: white;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    align-self: center;
+}
+
+#call {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#click-prompt {
+    font-size: 14px;
+}
+
 /* class rules */
+
+.call-to-action {
+    height: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .testimony {
     padding: 80px;
