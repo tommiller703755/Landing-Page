@@ -1,1 +1,3 @@
 # Landing-Page
+
+This project was very useful as a learning experience. I made some mistakes early on, especially in regards to over relying on class declarations and not taking advantage of the cascading features available in css. While the back end code does suffer from this I did adjust my approach over the course of working on this to lesson the impact of that, and know now to avoid that mistake in the future. 
