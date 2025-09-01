@@ -42,7 +42,53 @@
     font-size: 14px;
 }
 
+#images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: auto;
+    align-items: center;
+}
+
+#info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 /* class rules */
+
+.desc {
+    font-size: 18px;
+    color: #555555;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.image {
+    border-color: #3882F6;
+    border-width: 4px;
+    border-radius: 12px;
+    border-style: solid;
+    height: 150px;
+    width: 150px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+    gap: 10px;
+}
 
 .nav-bar {
     display: flex;
@@ -93,6 +139,6 @@ button {
     font-weight: bold;
     color: #F9FAF8;
     width: 100px;
-    height: 24px;
+    height: 30px;
     border-radius: 7px;
 }
