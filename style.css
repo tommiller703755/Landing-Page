@@ -56,7 +56,31 @@
     font-weight: 900;
 }
 
+#quote {
+    color: #1F2937;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    width: 545px;
+}
+
+#attribution {
+    text-align: right;
+
+    font-weight: bold;
+}
+
 /* class rules */
+
+.testimony {
+    padding: 80px;
+    background-color: #E5E7EB;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .desc {
     font-size: 18px;
