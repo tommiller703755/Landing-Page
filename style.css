@@ -42,20 +42,6 @@
     font-size: 14px;
 }
 
-#images {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex: auto;
-    align-items: center;
-}
-
-#info-header {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-}
-
 #quote {
     color: #1F2937;
     font-size: 24px;
@@ -66,7 +52,6 @@
 
 #attribution {
     text-align: right;
-
     font-weight: bold;
 }
 
@@ -97,7 +82,62 @@
     font-size: 14px;
 }
 
+#footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-note {
+    color: white;
+    padding: 40px;
+}
+
+#random-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 80px;
+}
+
+#info-header {
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+#card-set {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
 /* class rules */
+
+.image {
+    width: 125px;
+    height: 125px;
+    
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    width: 125px;
+    text-align: center;
+    font-size: 14px;
+    color: #535355;
+}
 
 .call-to-action {
     height: 250px;
@@ -115,38 +155,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.desc {
-    font-size: 18px;
-    color: #555555;
-}
-
-.random-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-}
-
-.image {
-    border-color: #3882F6;
-    border-width: 4px;
-    border-radius: 12px;
-    border-style: solid;
-    height: 150px;
-    width: 150px;
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    text-align: center;
-    gap: 10px;
 }
 
 .nav-bar {
